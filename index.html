@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Luxury Hotels</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f1f8cc;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            text-align: center;
+            padding: 40px;
+            color: rgb(247, 225, 190);
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        #logo {
+            width: 100px; /* Adjust the width as needed */
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        /* Style for the scrolling banner */
+        #scrolling-banner {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            color: rgb(247, 225, 190);
+            padding: 20px;
+            font-size: 24px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        /* Style for the dropdown menu */
+        .dropdown {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #000;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: rgb(247, 225, 190);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #000000;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <button class="button">Menu &#9662;</button>
+            <div class="dropdown-content">
+                <a href="https://www.fourseasons.com">More Information</a>
+                <a href="https://www.fourseasons.com/find_a_hotel_or_resort/">Hotels</a>
+                <a href="https://www.fourseasons.com/about_four_seasons/">About Us</a>
+            </div>
+        </div>
+
+        <h1>Our Luxurious Four Seasons Hotels</h1>
+
+        <!-- Scrolling Banner -->
+        <div id="scrolling-banner">
+            <marquee behavior="scroll" direction="left" scrollamount="10">
+                Indulge in unparalleled luxury at Four Seasons hotels - Where Exquisite Comfort Meets Exceptional Service
+            </marquee>
+        </div>
+    </header>
+
+    <section>
+        <!-- Espace vide ajouté entre l'en-tête et la vidéo YouTube -->
+        <div style="height: 70px;"></div>
+    </section>
+
+    <section>
+        <iframe width="670" height="400" src="https://www.youtube.com/embed/lzq78MIkT2s?si=nNGpqJXt4QNbkjj9"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <h2>Explore Luxury Hotels</h2>
+        <div class="city-container">
+            <div class="city">
+                <img src="images Aleyna/Istanbul.jpg" alt="Four Seasons Istanbul">
+                <h3>Four Seasons Istanbul</h3>
+                <p>Experience opulence and elegance at the Four Seasons in the heart of Istanbul.</p>
+                <a href="https://www.fourseasons.com/istanbul/" class="button" target="_blank">Book Now</a>
+            </div>
+            <div class="city">
+                <img src="images Aleyna/dubai.jpg" alt="Four Seasons Dubai">
+                <h3>Four Seasons Dubai</h3>
+                <p>Discover luxury and sophistication at the Four Seasons in Dubai, a true oasis.</p>
+                <a href="https://www.fourseasons.com/dubai/" class="button" target="_blank">Book Now</a>
+            </div>
+            <div class="city">
+                <img src="images Aleyna/george 5.jpg" alt="Four Seasons Paris">
+                <h3>Four Seasons Paris</h3>
+                <p>Immerse yourself in the charm of Paris with a stay at the luxurious Four Seasons.</p>
+                <a href="https://www.fourseasons.com/paris/" class="button" target="_blank">Book Now</a>
+            </div>
+            <div class="city">
+                <img src="images Aleyna/images:fs kech.jpg" alt="Four Seasons Marrakech">
+                <h3>Four Seasons Marrakech</h3>
+                <p>Experience luxury surrounded by the beauty of Marrakech at the Four Seasons.</p>
+                <a href="https://www.fourseasons.com/marrakech/" class="button" target="_blank">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Testimonials -->
+    <footer style="background-color: #000000; color: rgb(247, 225, 190); padding: 20px; text-align: center;">
+
+        <h3 style="color: rgb(247, 225, 190);">Testimonials</h3
